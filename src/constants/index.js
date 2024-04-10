@@ -92,10 +92,10 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  // {
-  //   name: 'Bootstrap',
-  //   icon: bootstrap,
-  // },
+  {
+    name: 'Bootstrap',
+    icon: bootstrap,
+  },
   {
     name: 'Vue',
     icon: vue,
