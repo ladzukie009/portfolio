@@ -22,7 +22,7 @@ const App = () => {
           <About />
         </div>
 
-        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
+        <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10 py-10">
           <Tech />
         </div>
 
@@ -37,9 +37,11 @@ const App = () => {
             <Experience />
           </div>
         </div>
+
         <div className="relative z-0">
           <Contact />
         </div>
+        
       </div>
     </BrowserRouter>
   );

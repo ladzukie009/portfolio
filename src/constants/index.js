@@ -1,32 +1,28 @@
 import {
+  evve,
   frontend,
   backend,
   ux,
   prototyping,
   javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
+  html5,
+  css3,
+  vue,
+  react,
+  bootstrap,
+  laravel,
+  mysql,
+  mongo,
+  csharp,
   tailwind,
-  nodejs,
+  node,
   git,
-  figma,
-  docker,
-  postgresql,
   rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  clientportal,
+  gymerls,
+  aksha,
+  shiftminds,
 } from '../assets';
 
 export const navLinks = [
@@ -66,27 +62,19 @@ const services = [
 const technologies = [
   {
     name: 'HTML 5',
-    icon: html,
+    icon: html5,
   },
   {
     name: 'CSS 3',
-    icon: css,
+    icon: css3,
   },
   {
     name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
-    icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
+    icon: react,
   },
   {
     name: 'Tailwind CSS',
@@ -94,70 +82,85 @@ const technologies = [
   },
   {
     name: 'Node JS',
-    icon: nodejs,
+    icon: node,
   },
   {
     name: 'Rails',
     icon: rubyrails,
   },
   {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'Bootstrap',
+    icon: bootstrap,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'Vue',
+    icon: vue,
+  },
+  {
+    name: 'Laravel',
+    icon: laravel,
+  },
+  {
+    name: 'MySQL',
+    icon: mysql,
+  },
+  {
+    name: 'Mongoose',
+    icon: mongo,
+  },
+  {
+    name: 'CSharp',
+    icon: csharp,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'IT / CCTV Technician',
+    company_name: 'JSML Corporation',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jan 2016 - March 2018',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Software Engineer',
+    company_name: 'Pragtechnologies',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Sep 2018 - Oct 2020',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Web / Android Developer',
+    company_name: 'New San Jose Builders Inc',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'June 2021 - Oct 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Full Stack Dev - Trainee',
+    company_name: 'Vertere Global Solutions Inc',
+    icon: coverhunt,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Oct 2022 - Feb 2023',
+  },
+  {
+    title: 'Developer - Part time',
+    company_name: 'EVVE Australia',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Oct 2022 - March 2024',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Evve',
+    description: 'A web application that educates, entertains, and inspires woman toward greater understanding of the Body Basics, Cycles, Contraception and Conception Series',
     tags: [
       {
         name: 'react',
@@ -172,15 +175,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: evve,
     repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    demo: 'https://evve.com.au/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Client portal',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Is a secure online platform designed to streamline communication, collaboration, and access to resources between our company and our clients.',
     tags: [
       {
         name: 'react',
@@ -195,14 +198,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: clientportal,
     repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    demo: 'https://clientportal.nsjbi.com.ph/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Gymerls 2.0',
+    description: 'This platform empowers gym owners and trainers to efficiently manage memberships, schedule classes, track attendance, and handle billing, among other key functionalities',
     tags: [
       {
         name: 'nextjs',
@@ -217,14 +220,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: gymerls,
     repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    demo: 'https://www.gymerls.com/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Aksha christening',
+    description: `Our Christening Web Page is a beautifully designed online platform tailored to help families celebrate and commemorate the special occasion of a child's christening or baptism`,
     tags: [
       {
         name: 'nextjs',
@@ -239,15 +242,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
+    image: aksha,
     repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    demo: 'https://akshaillyria.netlify.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Shift Minds',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'Welcome to ShiftMinds official website, your gateway to discovering our products, services, and mission.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +265,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
+    image: shiftminds,
     repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    demo: 'https://www.shiftminds.com.ph/',
   },
 ];
 

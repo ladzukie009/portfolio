@@ -37,12 +37,13 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        I am a passionate and dedicated software engineer with a strong background in 
+        web development, mobile and windows applications.
+        I thrive on solving complex problems and creating innovative solutions that positively impact users experiences. 
+        With more than 5 years of experience in the industry, I have honed my skills in HTML, CSS, JavaScript, C#, .NET, MVC, MVVM,
+        Vue, React, Bootstrap, GIT, Tailwind CSS, PHP, Laravel, API, MySQL, Mongoose, GoHighLevel, ActiveCampaign, Forge, Stripe,
+        3 Tier Architecture, Xamarin Forms, SASS, Node, Express, Ruby, Ruby on Rails, etc.
+        and am always eager to learn and adapt to new technologies.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
