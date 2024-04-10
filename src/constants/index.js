@@ -60,14 +60,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html5,
-  },
-  {
-    name: 'CSS 3',
-    icon: css3,
-  },
+  // {
+  //   name: 'HTML 5',
+  //   icon: html5,
+  // },
+  // {
+  //   name: 'CSS 3',
+  //   icon: css3,
+  // },
   {
     name: 'JavaScript',
     icon: javascript,
@@ -76,26 +76,26 @@ const technologies = [
     name: 'React JS',
     icon: react,
   },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
   {
     name: 'Node JS',
     icon: node,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
   {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'Bootstrap',
-    icon: bootstrap,
-  },
+  // {
+  //   name: 'Bootstrap',
+  //   icon: bootstrap,
+  // },
   {
     name: 'Vue',
     icon: vue,
@@ -104,18 +104,18 @@ const technologies = [
     name: 'Laravel',
     icon: laravel,
   },
-  {
-    name: 'MySQL',
-    icon: mysql,
-  },
+  // {
+  //   name: 'MySQL',
+  //   icon: mysql,
+  // },
   {
     name: 'Mongoose',
     icon: mongo,
   },
-  {
-    name: 'CSharp',
-    icon: csharp,
-  },
+  // {
+  //   name: 'CSharp',
+  //   icon: csharp,
+  // },
 ];
 
 const experiences = [
